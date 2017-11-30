@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 
-$(".selectOne").hide(1);
+// $(".selectOne").hide(1);
 $(".selectTwo").hide(1);
 $(".selectThree").hide(1);
 
@@ -27,7 +27,7 @@ $(".radioItem1").on("click", function(){
   $(".selectTwo").hide(1);
   $(".selectThree").hide(1);
 
-  $(".selectOne").show(400);
+  $(".selectOne").slideDown(400);
 
 });
 $(".radioItem2").on("click", function(){
@@ -35,7 +35,7 @@ $(".radioItem2").on("click", function(){
   $(".selectTwo").hide(1);
   $(".selectThree").hide(1);
 
-  $(".selectTwo").show(400);
+  $(".selectTwo").slideDown(400);
 
 });
 $(".radioItem3").on("click", function(){
@@ -43,6 +43,6 @@ $(".radioItem3").on("click", function(){
   $(".selectTwo").hide(1);
   $(".selectThree").hide(1);
 
-  $(".selectThree").show(400);
+  $(".selectThree").slideDown(400);
 
 });
