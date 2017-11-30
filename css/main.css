@@ -291,6 +291,16 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*
+black: #0E0B16
+purple: #A239CA
+blue: #4717F6
+white: #E7DFDD;
+*/
+
+
+
 html {
     font-size: 20px;
 }
@@ -370,4 +380,7 @@ img {
     margin: 20px auto;
     display: inline;
     text-align: center;
+}
+.selectOne, .selectTwo, .selectThree {
+    visibility: hidden;
 }

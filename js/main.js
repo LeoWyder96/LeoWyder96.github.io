@@ -3,7 +3,7 @@ $(document).ready(function(){
         centerMode: true,
         centerPadding: '10px',
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         asNavFor: '.radioName'
 	});
 });
