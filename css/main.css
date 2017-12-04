@@ -384,3 +384,36 @@ img {
 /*.selectOne, .selectTwo, .selectThree {
     visibility: hidden;
 } */
+audio {
+ width: 100%;
+}
+.audiobox {
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+    height: 404px;
+}
+.title {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+.radioItem1, .radioItem2, .radioItem3 {
+    background-color: #4717F6;
+    border-radius: 50%;
+    border: 3px solid #0E0B16;
+
+}
+.imgCon {
+    width: 900px;
+    margin: 0 auto;
+}
+.imgCon input {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+.imgCentering{
+    margin-left: 245px;
+}
