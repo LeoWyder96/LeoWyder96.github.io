@@ -21,16 +21,16 @@ $(document).ready(function(){
 });
 
 
-$(".selectOne").hide(1);
-$(".selectTwo").hide(1);
-$(".selectThree").hide(1);
+$(".selectOne").hide(0);
+$(".selectTwo").hide(0);
+$(".selectThree").hide(0);
 
 
 $(".radioItem1").on("click", function(){
 
-  $(".selectOne").hide(1);
-  $(".selectTwo").hide(1);
-  $(".selectThree").hide(1);
+  $(".selectOne").hide(0);
+  $(".selectTwo").hide(0);
+  $(".selectThree").hide(0);
 
   $(".selectOne").slideDown(400);
   if (audioPlayer1.play) {
@@ -47,17 +47,17 @@ $(".radioItem1").on("click", function(){
 $(".radioItem2").on("click", function(){
   
 
-  $(".selectOne").hide(1);
-  $(".selectTwo").hide(1);
-  $(".selectThree").hide(1);
+  $(".selectOne").hide(0);
+  $(".selectTwo").hide(0);
+  $(".selectThree").hide(0);
 
   $(".selectTwo").slideDown(400);
 
 });
 $(".radioItem3").on("click", function(){
-  $(".selectOne").hide(1);
-  $(".selectTwo").hide(1);
-  $(".selectThree").hide(1);
+  $(".selectOne").hide(0);
+  $(".selectTwo").hide(0);
+  $(".selectThree").hide(0);
 
   $(".selectThree").slideDown(400);
 

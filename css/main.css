@@ -405,7 +405,7 @@ audio {
 
 }
 .imgCon {
-    width: 900px;
+    width: 413px;
     margin: 0 auto;
 }
 .imgCon input {
@@ -416,4 +416,37 @@ audio {
 }
 .imgCentering{
     margin-left: 245px;
+}
+.colorControl {
+   background-color: #4717F6;
+    border-radius: 50%;
+    border: 3px solid #0E0B16; 
+}
+.backwardsArw {
+   -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+img .albumPic {
+    float: left;
+    text-align: center;
+    margin-left: 245px;
+}
+.musicInfo {
+    border: 2px solid #0E0B16;
+    width: 900px;
+    margin: 0 auto;
+}
+.musicInfo h3 {
+ display: box;
+ clear: right;
+ text-align: center;
+}
+.musicInfo p {
+    display: block;
+    clear: both;
+    text-align: center;
 }
