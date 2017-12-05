@@ -430,10 +430,9 @@ audio {
         filter: FlipH;
         -ms-filter: "FlipH";
 }
-img .albumPic {
-    float: left;
-    text-align: center;
-    margin-left: 245px;
+.albumPic {
+    display: block;
+    margin: 0 auto;
 }
 .musicInfo {
     border: 2px solid #0E0B16;
